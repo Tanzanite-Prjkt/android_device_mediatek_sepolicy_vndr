@@ -255,3 +255,9 @@ attribute hal_mtk_composer_ext_server;
 attribute hal_mtk_videotelephony;
 attribute hal_mtk_videotelephony_client;
 attribute hal_mtk_videotelephony_server;
+
+# Data: 2023/03/22
+# MTK GPU Extra AIDL
+attribute hal_mtk_gpuserv;
+attribute hal_mtk_gpuserv_client;
+attribute hal_mtk_gpuserv_server;
