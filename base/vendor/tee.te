@@ -96,3 +96,6 @@ allow tee tee_data_file:dir create_dir_perms;
 
 # Allow TEE to manage eSE
 allow tee nfc_device:chr_file rw_file_perms;
+
+# tee-supplicant tries to rmdir its non-empty storage directory
+dontaudit tee vendor_data_file:dir { write remove_name };
